@@ -1,6 +1,6 @@
 import { Module, DynamicModule, Global } from '@nestjs/common';
 import { GoogleStrategy } from './google.strategy';
-import { GoogleAuthOptions } from 'src/google-auth/google-auth.constants';
+import { GoogleAuthOptions } from './google-auth.constants';
 
 @Global()
 @Module({})

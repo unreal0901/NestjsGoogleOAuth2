@@ -1,5 +1,5 @@
 {
-  "name": "nestauthgoogle",
+  "name": "nest-oauthgoogle",
   "version": "0.1.0",
   "description": "A NestJS module for Google authentication",
   "author": "Your Name rawatas0901@gmail.com",
@@ -7,6 +7,12 @@
   "license": "MIT",
   "main": "dist/google-auth.module.js",
   "types": "dist/google-auth.module.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
